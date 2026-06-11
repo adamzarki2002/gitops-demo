@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: nginxdemos/hello:versionnotexist
+        image: image: nginxdemos/hello:versionnotexist
         ports:
         - containerPort: 80
 ---
